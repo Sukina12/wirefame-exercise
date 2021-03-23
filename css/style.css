@@ -4,33 +4,33 @@ body {
     font-weight: bold;
     padding: 20px;
     color: black;
-    align-items: center;
 }
-header .placehold{
+.navBar{
+    margin: auto;
+}
+.logo {
     float: left;
-    background-color: #ddd;
-    padding: 10px;
-    
 }
 nav ul li  {
     display: inline-block;
     padding: 40px;
-    color: black;
-
-    
+    color: black;   
+}
+.divS{
+   clear: both;
 }
 
-.placehold{
-    clear: both;
-}
-#Left-Side{
+.text-img{
     width: 40%;
     float: left;
+    padding-bottom: 20px;
+   
 }
- #Right-Side{
-    width: 60%;
+.text {
+    width: 50%;
     float: right;
-
+    padding-right: 5px;
+   
 }
 h2{
     font-weight: bold;
@@ -39,13 +39,17 @@ h2{
     margin-bottom: 30px;
 }
 p {
-    font-weight: bold;
+    font-size: 15px;
     text-align: justify;
     margin-bottom: 30px;
+}
+button {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 footer {
     clear: both;
-    padding: 40px;
+    padding: 60px;
     background-color: #ddd;
 }
