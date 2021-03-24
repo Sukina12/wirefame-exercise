@@ -2,54 +2,87 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     font-size: medium;
     font-weight: bold;
-    padding: 20px;
     color: black;
+    margin:auto
 }
-.navBar{
-    margin: auto;
+#div1{
+    padding-bottom:20px;
 }
 .logo {
     float: left;
+    width:20%;
+    padding:80px;
 }
 nav ul li  {
     display: inline-block;
-    padding: 40px;
+    padding: 30px;
+    padding-top: 120px;
     color: black;   
 }
-.divS{
+#div2{
+  padding:80px;
+  clear: both;
+  padding-bottom:20px;
+  padding-top: 5px;
+    
+}
+#img{
+    width:89%;
+}
+#div3{
    clear: both;
+   margin-right: 20px;
+   padding: 80px;
+   padding-bottom: 20px;
+
+}
+.banner{
+    width:30%;
+}
+#div4{
+    width: 75%;
+    margin:30px;
+    padding: 70px;
+    padding-bottom:20px;
 }
 
-.text-img{
-    width: 40%;
+#div4 .text-img{
+    width: 50%;
+    height: 480px;
     float: left;
-    padding-bottom: 20px;
-   
+    padding-bottom: 30px;
+    
 }
 .text {
-    width: 50%;
+    margin:20px;
+}
+#div4 .text {
+    width: 40%;
     float: right;
     padding-right: 5px;
-   
 }
 h2{
     font-weight: bold;
     font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 p {
     font-size: 15px;
     text-align: justify;
-    margin-bottom: 30px;
+    overflow: scroll;
+    margin-bottom: 20px;
 }
 button {
     font-size: 20px;
     font-weight: bold;
+    background-color: #ddd;
 }
 
 footer {
     clear: both;
-    padding: 60px;
+    padding: 50px;
     background-color: #ddd;
+    margin-left: 80px;
+    margin-right: 100px;
+    
 }
